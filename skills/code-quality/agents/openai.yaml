@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Quality"
+  short_description: "Apply project-aware maintainability standards"
+  default_prompt: "Apply the code-quality standard while implementing, fixing, or reviewing this Task."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Run Task"
+  short_description: "Coordinate one Task through canonical role stages"
+  default_prompt: "Coordinate the granted Task through its legal harness stages."
+

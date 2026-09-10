@@ -1,0 +1,12 @@
+[submodule "upstreams/mattpocock-skills"]
+	path = upstreams/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+[submodule "upstreams/ponytail"]
+	path = upstreams/ponytail
+	url = https://github.com/DietrichGebert/ponytail.git
+[submodule "upstreams/stop-that-shit"]
+	path = upstreams/stop-that-shit
+	url = https://github.com/lennney/stop-that-shit.git
+[submodule "upstreams/i-have-adhd"]
+	path = upstreams/i-have-adhd
+	url = https://github.com/ayghri/i-have-adhd.git

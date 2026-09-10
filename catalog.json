@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "repository": "harness-global-skills",
+  "status": "bootstrap",
+  "active_bundle": null,
+  "skills": [
+    {
+      "name": "matt-skill-creation",
+      "maturity": "candidate",
+      "surfaces": ["talk"],
+      "automation": "interactive"
+    },
+    {
+      "name": "project-docs-init",
+      "maturity": "candidate",
+      "surfaces": ["project-init"],
+      "automation": "mixed"
+    },
+    {
+      "name": "project-docs-maintenance",
+      "maturity": "candidate",
+      "surfaces": ["talk", "run"],
+      "automation": "role-aware"
+    },
+    {
+      "name": "code-quality",
+      "maturity": "candidate",
+      "surfaces": ["run"],
+      "automation": "role-reference",
+      "roles": ["implementation", "debug_search", "code_review"],
+      "provenance": "skills/code-quality/references/provenance.md"
+    },
+    {
+      "name": "run-task",
+      "maturity": "candidate",
+      "surfaces": ["run"],
+      "automation": "non-interactive"
+    },
+    {
+      "name": "to-tasks",
+      "maturity": "candidate",
+      "surfaces": ["talk", "run"],
+      "automation": "mixed",
+      "provenance": "skills/to-tasks/references/provenance.md"
+    }
+  ]
+}

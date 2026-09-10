@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Docs Maintenance"
+  short_description: "Keep docs aligned with code truth and target design"
+  default_prompt: "Audit or update project docs after code or design changes."
+

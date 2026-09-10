@@ -1,0 +1,4 @@
+interface:
+  display_name: "To Tasks"
+  short_description: "Split complex work into exact immediate subtasks"
+  default_prompt: "Use $to-tasks to split this complex task into an ordered immediate-child list whose completion exactly completes the parent."

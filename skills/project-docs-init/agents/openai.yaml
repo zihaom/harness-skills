@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Docs Init"
+  short_description: "Initialize hierarchical code-grounded project docs"
+  default_prompt: "Initialize stable project docs from current code truth."
+

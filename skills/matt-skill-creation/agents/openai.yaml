@@ -1,0 +1,4 @@
+interface:
+  display_name: "Matt Skill Creation"
+  short_description: "Author concise composable engineering skills"
+  default_prompt: "Use $matt-skill-creation to create or revise a concise skill that fits the Matt skill system."
