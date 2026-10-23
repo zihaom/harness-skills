@@ -1,30 +1,35 @@
 # Upstream Provenance
 
-Reviewed on 2026-08-26.
+Reviewed on 2026-10-23.
 
 | Source | Revision | Use |
 |---|---|---|
 | `openai/skills` | `49f948faa9258a0c61caceaf225e179651397431` | Official skill structure, validation, and catalog review |
-| `mattpocock/skills` | `6654f6b60cd9d5be8b54c6fafe44346dabeb3b76` | Concise workflow patterns, invocation mechanics, and candidate ideas |
-| `DietrichGebert/ponytail` | `2ed6c52c9d7e5e56942508591085fd45dea277d3` | YAGNI/minimal-solution discipline and over-engineering review references |
+| `mattpocock/skills` | `5beb35b040e3de97e54fa9e386d7e42d15c295c2` | Concise workflow patterns, invocation mechanics, and candidate ideas |
+| `DietrichGebert/ponytail` | `09c434ab73ca43761c5d8b0c5d341926c2fba710` | YAGNI/minimal-solution discipline and over-engineering review references |
 | `obra/superpowers` | `d884ae04edebef577e82ff7c4e143debd0bbec99` | Overlap audit and verification/review ideas |
-| `lennney/stop-that-shit` | `d4b9db78063d595e65b0c163933a90c4c681d50d` | Scope-discipline and `stss` writing references; inert upstream, no Guard or hooks activated |
-| `ayghri/i-have-adhd` | `ff690b6fbd3383e4fce6a7e50c7b409ca9a6a804` | ADHD-friendly output-style reference; inert upstream, no role-bundle activation |
-| `wondelai/skills` | `dd37ee506ff558e939b3d421557987cced49b866` | `clean-code` v1.4.0 adapted into `code-quality` |
+| `lennney/stop-that-shit` | `8bc1ac558167121e7f28d9fb0bec05c039952206` | Scope-discipline and `stss` writing references; inert upstream, no Guard or hooks activated |
+| `ayghri/i-have-adhd` | `1ecea1993b7fce257ffbd686c070948b5e07eda6` | ADHD-friendly output-style reference; inert upstream, no role-bundle activation |
+| `wondelai/skills` (`code-quality` adaptation) | `dd37ee506ff558e939b3d421557987cced49b866` | `clean-code` v1.4.0 adapted into `code-quality` |
+| `wondelai/skills` (six craftsmanship skills) | `c172996495bed0fcd26896a9416b2093fd7073f0` | Current publisher sources for the six skills in `upstreams/volc-strat-prod-code-craftsmanship/` |
 | strat-live harness prototype | unversioned server snapshot, 2026-07-23 | Migration input only |
-| `volc-strat-prod:/root/workspace/harness/.agents/skills/engineering/code-craftsmanship` | unversioned worker snapshot captured 2026-08-10; tree digest `41f4d2f1bbcf4ffe7335b4fe22b9050706e4da8a690f107d2b7aec04fdc5f67f` | Talk-only architecture taste and reference material |
+| `volc-strat-prod:/root/workspace/harness/.agents/skills/engineering/code-craftsmanship` | unversioned worker snapshot captured 2026-08-10; tree digest `41f4d2f1bbcf4ffe7335b4fe22b9050706e4da8a690f107d2b7aec04fdc5f67f` | Historical craftsmanship capture, refreshed from its publisher on 2026-10-23 |
 
 No upstream workflow skill is active merely because it was reviewed. Imported
 or adapted content must record its license and exact source in the skill
 directory before release.
 
-The `volc-strat-prod` snapshot is stored unchanged at
-`upstreams/volc-strat-prod-code-craftsmanship/`. Its source directory was not a
-Git checkout, so the capture is identified by host, absolute source path,
-capture date, and a digest of the sorted per-file SHA-256 manifest. The six
-skills retain their MIT license and original Wondel.ai metadata in their own
-front matter. They are not cataloged, released, activated, or approved for a
-Run role bundle.
+The six craftsmanship skills remain at
+`upstreams/volc-strat-prod-code-craftsmanship/`, retaining the original capture's
+directory name. The original worker source was not a Git checkout; its host,
+path, date, and digest above identify that historical capture. On 2026-10-23,
+all six packages were refreshed from the matching skill directories in
+`wondelai/skills` at the publisher revision above, including support files.
+They retain the publisher's MIT license and metadata. They are not cataloged,
+released, activated, or approved for a Run role bundle.
+
+See [the 2026-10-23 Talk record](history/2026-10-23-upstream-refresh-and-andrew-ng.md)
+for the upstream refresh and Andrew Ng skill request.
 
 ## 2026-09-10 upstream additions
 

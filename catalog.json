@@ -5,6 +5,12 @@
   "active_bundle": null,
   "skills": [
     {
+      "name": "andrew-ng",
+      "maturity": "candidate",
+      "surfaces": ["talk"],
+      "automation": "interactive"
+    },
+    {
       "name": "matt-skill-creation",
       "maturity": "candidate",
       "surfaces": ["talk"],
